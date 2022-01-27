@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="titel__head">to appoint</div>
+    <div class="titel__head">to do</div>
+    <div class="titel__head">done</div>
+  </header>
+  <div class="body__inner">
+    <form name="form">
+      <textarea rows="20" name="task"></textarea>
+  
+      <select name="days">
+        <option>пн</option>
+        <option>вт</option>
+        <option>ср</option>
+        <option>чт</option>
+        <option>пт</option>
+      </select>
+   
+      <select name="hours">
+        <option>9:00</option>
+        <option>10:00</option>
+        <option>11:00</option>
+        <option>12:00</option>
+        <option>13:00</option>
+        <option>14:00</option>
+      </select>
+  
+      <input type="button" value="Добавить задание" onclick="addTask()">
+    </form>
+
+    <div id="info"></div>
+    <div id="info2"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

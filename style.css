@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background: rgb(197, 30, 86);
+}
+
+html, body {
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  background: linear-gradient(45deg, #393ceb, #941ab3) no-repeat;
+}
+
+form{
+  padding-top: 20px;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titel__head{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.days .text .hours{
+  padding: 50px;
+  background: gray;
+}
+
+#info{
+  padding-top: 10px;
+  width: 33%;
+}
+
+#info2{
+  padding-top: 10px;
+  width: 33%;
+}
+
+.body__inner{
+  display: flex;
+  justify-content: space-around;
+}
+
+.blockTask2{
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.blockTask2 div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blockTask2 h2{
+  width: 100%;
+  background: linear-gradient(45deg,#e6c11c, #e6c11c, #eb3939) no-repeat;
+}
+
+.blockTask{
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.blockTask div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blockTask h2{
+  width: 100%;
+}
+
+.blockTask p:nth-child(1n){
+  float: left;
+}
+
+.blockTask p:nth-child(1):before {
+  content: "📅";
+  margin: 0px 15px;
+}
+
+.blockTask p:nth-child(2n){
+  float: right;
+} 
+
+.blockTask p:nth-child(2):after {
+  content: "⌚"; 
+  margin: 0px 15px;
+}
+
+.blockTask2 p:nth-child(1n){
+  float: left;
+}
+
+.blockTask2 p:nth-child(1):before {
+  content: "📅";
+  margin: 0px 15px;
+}
+
+.blockTask2 p:nth-child(2n){
+  float: right;
+} 
+
+.blockTask2 p:nth-child(2):after {
+  content: "⌚"; 
+  margin: 0px 15px;
+}
